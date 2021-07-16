@@ -1,6 +1,5 @@
 class Player:
     def __init__(self):
-        self.name = input("What is your name? \n")
         self.gesture = self.create_gesture()
         self.score = 0
 
@@ -21,5 +20,5 @@ class Player:
             self.choose_gesture = "spock"
         elif self.choose_gesture == 5:
             self.choose_gesture = "lizard"
-        print(self.name + " has selected " + self.choose_gesture)
+        print("Player has selected " + self.choose_gesture)
         
