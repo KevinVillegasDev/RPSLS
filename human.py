@@ -2,6 +2,6 @@ from player import Player
 
 
 class Human(Player):
-    def __init__(self):
-       self.name = input("What is your name? \n")
-       super().__init__() 
+    def __init__(self, name):
+       super().__init__(name) 
+    
