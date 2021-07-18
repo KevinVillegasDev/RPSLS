@@ -4,9 +4,8 @@ import random
 
 class AI(Player):
     def __init__(self):
-        self.name = "Computer"
-        super().__init__()
+        super().__init__(self)
 
     def get_gesture(self):
-        self.choice = self.gesture[random.randint(1, 5)]
-        print("The computer selects:" + self.choice)
+        self.choice = random.choice(self.choose_gesture)
+        print("The computer selects: " + self.choice)
