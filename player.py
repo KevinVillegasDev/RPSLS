@@ -22,4 +22,5 @@ class Player:
         elif self.choose_gesture == "5":
             self.choose_gesture = "lizard"
         print("Player has selected " + self.choose_gesture)
+        return self.choose_gesture
         
