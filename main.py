@@ -10,16 +10,11 @@
 # Step 10- Repeat step 4, 5, 6, 7 two more times
 # Step 11- If any player wins first two rounds, display match winner and skip round 3
 
-from player import Player
-from ai import AI
+from game import Game
 
 
-
-round_one = Player()
-round_one.select_gesture()
-
-robot = AI()
-robot.get_gesture()
+game = Game()
+game.run_game()
 
 print("The end")
 
