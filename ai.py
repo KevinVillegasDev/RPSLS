@@ -6,7 +6,7 @@ class AI(Player):
     def __init__(self):
         super().__init__(self)
 
-    def get_gesture(self):
+    def choose_gesture(self):
         self.choice = random.randint(1,5)
         if self.choice == 1:
             self.choice = "rock"
