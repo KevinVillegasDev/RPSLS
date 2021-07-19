@@ -71,10 +71,10 @@ class Game:
             print("Player one wins the round!")
             self.player_one.score += 1
         else:
-            print("Computer wins the round!")
+            print("Player 2 wins the round!")
             self.player_two.score += 1
         print(f'Player 1 has a score of {self.player_one.score}' )
-        print(f'The computer has a score of {self.player_two.score}')
+        print(f'Player 2 has a score of {self.player_two.score}')
 
 
 
@@ -94,7 +94,7 @@ class Game:
         if self.player_one.score == 2:
                 print("Player 1: WINNER! WINNER! CHICKEN DINNER!")
         elif self.player_two.score == 2:
-                print("Computer Wins!")
+                print("Player 2: WINNER! WINNER! CHICKEN DINNER!")
     
                 
 
