@@ -19,3 +19,4 @@ class AI(Player):
         elif self.choice == 5:
             self.choice = "lizard"
         print("The computer selects: " + self.choice)
+        return self.choice
